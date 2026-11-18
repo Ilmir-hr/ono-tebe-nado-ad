@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 0 1fr;
   align-items: center;
   padding: 92px 50px 96px;
-  font-size: 18px; 
+  font-size: 18px;
 }
 
 .header__links-list {
@@ -14,13 +14,13 @@
 }
 
 .header__links-list-item {
-  list-style-type: circle;
   margin-left: 13px;
+  list-style-type: circle;
 }
 
 .header__links-list-item_no-bullit {
-  list-style-type: none;
   margin-left: 0;
+  list-style-type: none;
 }
 
 .header__link {
@@ -48,8 +48,8 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 240px;
-  font-style: normal;
   font-size: 18px;
+  font-style: normal;
   line-height: 24px;
 }
 
@@ -74,16 +74,16 @@
 }
 
 .cover__title {
-  display: flex;
-  flex-direction: column;
   position: relative;
   z-index: 2;
-  font-size: 100px;
-  letter-spacing: 30px;
-  line-height: 1.2;
-  font-weight: bold;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.2;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -119,13 +119,13 @@
 }
 
 .bet-button {
+  border: 1px solid #fff;
   padding: 12px 32px;
   color: #fff;
   font-size: 22px;
   line-height: 1;
   text-transform: uppercase;
   background-color: transparent;
-  border: 1px solid #fff;
 }
 
 .lots {
@@ -134,8 +134,8 @@
 
 .lots__heading {
   margin: 0 0 27px 40px;
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -148,9 +148,9 @@
 }
 
 .lots__card-list-item {
+  flex-grow: 1;
   width: 240px;
   min-height: 596px;
-  flex-grow: 1;
 }
 
 .card-link {
@@ -187,12 +187,12 @@
   position: relative;
   z-index: 2;
   max-width: 250px;
-  font-size: 22px;
   font-weight: bold;
+  font-size: 22px;
   line-height: 120%;
-  text-transform: uppercase;
   text-decoration: underline;
   text-underline-position: under;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -227,8 +227,8 @@
   align-self: center;
   width: 240px;
   height: 240px;
-  background-color: #000;
   border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
@@ -238,8 +238,8 @@
 .about__title {
   margin-top: 100px;
   margin-bottom: 100px;
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
