@@ -10,11 +10,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 13px;
+  gap: 15px;
 }
 
 .header__links-list-item {
-  margin-left: 13px;
+  margin-left: 15px;
   list-style-type: circle;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .header__logo-image {
-  width: 130px;
+  width: 148px;
 }
 
 .header__address {
@@ -58,7 +58,7 @@
 }
 .cover {
   position: relative;
-  min-height: 757px;
+  height: 757px;
   padding: 165px 50px 50px;
   color: #fff;
   background-image: url(../images/cover.jpg);
@@ -81,13 +81,14 @@
   gap: 20px;
   font-weight: bold;
   font-size: 100px;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text {
   display: block;
+  margin-right: -30px;
 }
 
 .aligned-text_left {
@@ -212,12 +213,13 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 25px;
-  margin: 180px 24px;
+  margin: 120px 24px 180px;
 }
 
 .about__column {
   display: flex;
   flex-direction: column;
+  margin-top: 35px;
 }
 
 .about__logo {
